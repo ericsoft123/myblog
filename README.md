@@ -1,4 +1,4 @@
-## installation Step
+## Step By Step Installation
 
 <p>Step 1:Clone with git clone https://github.com/ericsoft123/minisend.git</p>
 
@@ -15,9 +15,9 @@ MAIL_HOST='smtp.yourwebsite.com'
 MAIL_USERNAME='your username'
 MAIL_PASSWORD='your password'
 
-<p>Step 4:php artisan migrate </p>
-<p>Step 5:php artisan db:seed </p>
-<p>Step 6:php artisan serve </p>
+<p>Step 5:php artisan migrate </p>
+<p>Step 6:php artisan db:seed </p>
+<p>Step 7:php artisan serve </p>
 <p>Note:by default i disabled registration based on confirmation email ,you can enable it by changing
 EMAIL_CONFIRMATION=true   on .env file
 
